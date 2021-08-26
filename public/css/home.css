@@ -48,7 +48,7 @@
 .home__coy__logo {
     width: 30%;
     margin-bottom: 3rem;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
 .home__header {
@@ -213,11 +213,11 @@
     }
 }
 
-@media (min-width:1023px) and (max-width:1398px) {
+@media (min-width:1023px) and (max-width:1298px) {
     .home__vector {
-        width: 400px;
+        right: -7rem;
     }
     .home__dj-image {
-        width: 390px
+        right: -8.2rem;
     }
 }
