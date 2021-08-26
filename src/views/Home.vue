@@ -24,7 +24,7 @@
           <div class="home__buttons__container">
             <div>
               <el-input
-                placeholder="Enter your Email Address"
+                placeholder="Enter your email address"
                 v-model="input"
                 clearable
                 class="home__input"
