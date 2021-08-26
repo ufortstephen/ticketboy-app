@@ -17,6 +17,7 @@
 }
 
 .home__mobile__images {
+    width: 110vw;
     position: relative;
     top: 1.8rem;
     width: 100vw;
@@ -212,22 +213,22 @@
     }
 }
 
-@media(min-height:740px) and (min-width:1024px) and (max-width:1200px) {
+@media(min-height:740px) and (min-width:1024px) and (max-width:1398px) {
     .home {
-        background-color: #83E5F7!important;
-        color: #000 !important
+        /* background-color: #83E5F7!important; */
+        /* color: #000 !important */
     }
     .home__tickets__text {
-        color: #000;
+        /* color: #000; */
     }
     .home__header {
         font-weight: bolder;
     }
     .home__vector {
-        width: 500px;
+        width: 400px;
     }
     .home__dj-image {
-        width: 480px
+        width: 380px
     }
 }
 
