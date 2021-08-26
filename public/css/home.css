@@ -46,12 +46,12 @@
 
 .home__coy__logo {
     width: 30%;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .home__header {
     font-size: 40px;
-    line-height: 3rem;
+    line-height: 2.6rem;
     font-weight: 600;
 }
 
@@ -62,11 +62,13 @@
     padding: .3rem;
     border: 1px solid #8d8d8d7c;
     border-radius: 5px;
-    margin: 5rem 0;
+    /* margin: 5rem 0; */
 }
 
-.home__input input {
+.home__input input,
+.home__input input:focus {
     height: 50px !important;
+    font-size: 16px !important;
 }
 
 .home__button__blue {
@@ -75,6 +77,10 @@
     margin-top: .5rem;
     height: 50px;
     font-weight: 600;
+}
+
+.home__button__blue:hover {
+    color: #fff !important
 }
 
 .home__header__text {
@@ -104,7 +110,7 @@
     }
     .home__mobile__images {
         /* position: absolute; */
-        left: 37%;
+        left: -35%;
         bottom: 10%;
     }
     .home {
@@ -149,7 +155,7 @@
     }
     .home__header {
         font-size: 60px !important;
-        /* line-height: 2rem; */
+        line-height: 3rem;
     }
     .home__header__text {
         margin-top: 2rem;
@@ -163,7 +169,7 @@
         padding: .3rem;
         border: 1px solid #8d8d8d7c;
         border-radius: 5px;
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
         font-weight: 600;
     }
     .home__button__blue {

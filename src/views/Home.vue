@@ -12,7 +12,7 @@
 
       <div class="col col-md-5">
         <div class="home__cont">
-          <h1 class="home__header">
+          <h1 class="home__header mb-0">
             Your <span class="home__tickets__text">tickets</span> to
           </h1>
           <h1 class="home__header">experience live.</h1>
