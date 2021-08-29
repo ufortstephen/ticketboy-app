@@ -108,6 +108,7 @@
 
 <script>
 export default {
+  title: "Tickeyboy - Your tickets to experience live",
   data() {
     return {
       dynamicValidateForm: {
@@ -117,15 +118,11 @@ export default {
   },
   methods: {
     submitForm(formName) {
-
       // Validate Form
       this.$refs[formName].validate((valid) => {
         if (valid) {
-
-
           // Try function to send mail
           try {
-            
             // Getting button to manipulate textContent
             const btnGetAccess = document.getElementById("getAccessBtn");
             btnGetAccess.textContent = "Requesting....";
@@ -174,3 +171,7 @@ export default {
   },
 };
 </script>
+
+
+<style  src="../../public/css/home.css">
+</style>
